@@ -60,7 +60,7 @@ void loop() {
       mensagem = mqttClient.publish("vinicius-t", "Fechado");
       Serial.println(mensagem);
       mqttClient.loop();
-      delay(500);
+      delay(50);
     }
 
     else
@@ -71,7 +71,7 @@ void loop() {
       mensagem = mqttClient.publish("vinicius-t", "Aberto");
       Serial.println(mensagem);
       mqttClient.loop();
-      delay(500);
+      delay(50);
     }
     
      
